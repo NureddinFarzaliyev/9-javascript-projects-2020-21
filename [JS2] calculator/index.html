@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="keyboard">
+            <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="calc-display"></input>
+            <button class="num-btn seven">7</button>
+            <button class="num-btn eight">8</button>
+            <button class="num-btn nine">9</button>
+            <button class="math-btn divide">/</button>
+            <button class="num-btn four">4</button>
+            <button class="num-btn five">5</button>
+            <button class="num-btn six">6</button>
+            <button class="math-btn multiply">X</button>
+            <button class="num-btn one">1</button>
+            <button class="num-btn two">2</button>
+            <button class="num-btn three">3</button>
+            <button class="math-btn plus">+</button>
+            <button class="num-btn zero">0</button>
+            <button class="num-btn d-zero">00</button>
+            <button class="num-btn dot">.</button>
+            <button class="math-btn minus">-</button>
+            <button class="clean">C</button>
+            <button class="equal">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

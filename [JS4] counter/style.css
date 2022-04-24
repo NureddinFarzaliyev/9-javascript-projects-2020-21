@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 80vh;
+  width: 100%;
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: linear-gradient(to right, #267871, #136a8a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  height: 400px;
+  width: 350px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  font-family: "Graduate";
+  font-size: 150px;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-left: -5px;
+}
+
+.buttons button {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(231, 231, 231);
+  border: solid black;
+  border-radius: 10px;
+  transition: all 0.1s ease;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.buttons button:hover {
+  background-color: rgb(187, 184, 184);
+}

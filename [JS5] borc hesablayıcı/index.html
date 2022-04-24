@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Borc counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/588cf964b2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <h1>JS borc counter</h1>
+    <div class="input">
+        <span>Borc verənin adını daxil edin:</span>
+        <input type="text" name="input" class="borcVeren" id="borcgiver">
+        <span>Borc alanın adını daxil edin:</span>
+        <input type="text" name="input" class="borcAlan">
+        <span>Verilən borc miqdarını daxil edin:</span>
+        <input type="text" name="input" class="borcMiqdar" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="calc-display"></input>
+        <span>Borc faizini daxil edin:</span>
+        <input type="text" name="input" class="borcFaiz" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="calc-display"></input>
+        <button class="button">Borc əlavə edin.</button>
+    </div>
+    <table class="table">
+        <tr>
+            <th>Borc verən</th>
+            <th>Borc alan</th>
+            <th>Borc miqdarı</th>
+            <th>Borc faizi</th>
+            <th>Qaytarılmalı borc</th>
+            <th>Sil</th>
+        </tr>
+    </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
